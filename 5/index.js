@@ -43,14 +43,6 @@ const getLengthAfterFullReact = originalString => {
   return outputString.length;
 }
 
-let inputString = polymerString;
-let outputString = react(inputString);
-
-while (inputString !== outputString) {
-  inputString = outputString;
-  outputString = react(inputString);
-}
-
 const result = getLengthAfterFullReact(polymerString);
 console.log(result);
 
