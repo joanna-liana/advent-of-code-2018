@@ -59,8 +59,6 @@ const alphabetLettersCount = 26;
 const lowerCaseStart = 'a'.charCodeAt();
 const upperCaseStart = 'A'.charCodeAt();
 
-Array.from({ length: 20 }, (x,i) => i + 97);
-
 let removalResults = {};
 
 for (let i = 0; i < alphabetLettersCount; i++) {
